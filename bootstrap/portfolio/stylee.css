@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Dosis:wght@200&family=Manrope:wght@700&family=Montserrat:wght@100&family=Outfit:wght@300&family=Preahvihear&family=Roboto:wght@300&family=Titillium+Web:wght@200&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root{
+    --red: #ED2939;;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+
+    
+}
+
+.bg{
+    background-color: rgb(11, 11, 11);
+}
+
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color:var(--red);
+}
+.col{
+    font-family: 'PT Sans', sans-serif;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.h-5{
+    min-height: 480px;
+}
+
+.img-1{
+    height: 480px;
+    width: 100%;
+    /* filter: drop-shadow(10px 10px 20px white); */
+}
+.card-1{
+    max-width: 60%;
+    background-color: rgb(11, 11, 11);
+    min-height:400px;
+}
+.img-2{
+    height: 400px;
+    width: 70%;
+}
+
+.card img {
+    height: 300px;
+}
+
+footer{
+    line-height: 2px;
+}
+
+.icons i{
+    margin-left: 10px;
+    color:var(--red);
+}
+
+.card-body-1{
+    line-height: 30px;
+}

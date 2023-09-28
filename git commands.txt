@@ -1,0 +1,11 @@
+git init ==> initializing git
+
+git status ==> list all untracked files
+
+git add -A ==> adding all untacked files into staging area
+
+git commit -m "msg" ==> adding staged files to local respository
+
+git push -u branch_name
+
+git clone "path" ==> remote  repo exact copy 
